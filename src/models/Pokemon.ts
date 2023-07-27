@@ -1,7 +1,9 @@
 export interface Pokemon {
   name: string;
   types: {
-    type: {};
+    type: {
+      name:string
+    };
   }[];
   weight: number;
   height: number;
